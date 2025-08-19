@@ -1,0 +1,46 @@
+{
+  "name": "zillow-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "axios": "^1.11.0",
+    "daisyui": "^5.0.50",
+    "leaflet": "^1.9.4",
+    "leaflet-draw": "^1.0.4",
+    "lucide-react": "^0.539.0",
+    "next": "15.4.6",
+    "prisma": "^6.14.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-leaflet": "^5.0.0",
+    "react-map-gl": "^8.0.4",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@faker-js/faker": "^9.9.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/leaflet": "^1.9.20",
+    "@types/node": "^20.19.11",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.4",
+    "typescript": "^5"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  }
+}
