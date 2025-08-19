@@ -38,7 +38,7 @@ export default function Header() {
       <div className="flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <div className="flex items-center space-x-8">
-          <span className="text-2xl font-bold text-blue-600">Zillow</span>
+          <span className="text-2xl font-bold text-yellow-500">Buildentory</span>
 
           {/* Main Nav */}
           <nav className="hidden md:flex space-x-6 text-sm font-medium ">
